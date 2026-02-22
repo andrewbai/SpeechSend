@@ -1,0 +1,6 @@
+.DS_Store
+target-autoenter
+typeless-autoenter
+*.o
+*.pid
+*.log
