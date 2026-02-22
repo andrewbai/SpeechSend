@@ -202,6 +202,8 @@ Possible reasons:
 - The delay is too short and the text is not fully pasted yet (increase `DELAY_SEC`)
 - AutoEnter is currently disabled (check menu bar icon / shortcut)
 
+> **WeChat compatibility note:**  
+> On WeChat for macOS, synthetic Enter may be treated as a newline when “Enter to send” is enabled. If this happens, change WeChat’s “Send Message” shortcut to `Cmd + Enter`.
 ---
 
 ### 3) Can I make it work only in certain apps?

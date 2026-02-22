@@ -203,6 +203,9 @@ launchctl load ~/Library/LaunchAgents/com.user.target-autoenter.plist
 - 延迟太短，文本尚未完全粘贴（把 `DELAY_SEC` 调大）
 - AutoEnter 当前处于关闭状态（菜单栏或快捷键检查）
 
+> **微信兼容说明：**  
+> 微信 Mac 客户端在“Enter 发送”模式下，可能会将模拟回车识别为换行。若出现该情况，请将微信“发送消息”快捷键改为 `⌘ + Enter`。
+
 ---
 
 ### 3) 我只想在某些应用里使用，怎么办？
